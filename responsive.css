@@ -1,104 +1,128 @@
-@media (max-width: 1024px) {
-    .buttons {
-        margin-left: auto;
-        margin-right: auto;
-        flex-direction: row;
+@media (max-width: 480px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .container {
+        height: 100vh;
+        padding: 20px;
+    }
+
+    .container::before {
+        display: none; 
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
         justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .rules {
-        width: auto;
-        margin: 20px;
-    }
-
-    .users {
-        margin-left: 40px;
-        font-size: 1.5rem;
-    }
-}
-
-@media (max-width: 768px) {
-    .usernames {
         align-items: center;
-        margin-right: 40px;
-        margin-top: 30px;
+        margin-top: 80px;
     }
 
-    .questions {
-        margin: auto;
+    .item.active {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 150px;
     }
 
-    .dificult {
-        margin: auto;
-        margin-top: 5px;
+    .product-img {
         display: flex;
         justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
+        align-items: end;
+        margin-bottom: 20px;
     }
 
-    input[type="text"] {
-        width: 90%;
-    }
-
-    .add {
-        width: 90%;
+    .product-img img {
+        max-width: 80%;
+        height: auto;
     }
 
     .content {
-        align-items: center;
-        gap: 20px;
-    }
-
-    .buttons {
-        margin: 25px;
+        display: flex;
         flex-direction: column;
-    }
-
-    .rules h2 {
+        align-items: center;
         text-align: center;
-        margin-left: 0;
+        width: 100%;
+        margin-left: 80px;
     }
 
-    .rules p {
-        font-size: 1.2rem;
-        text-align: center;
+    .product-tag {
+        font-size: 0.9rem;
     }
 
-    .torf {
-        margin-top: 120px;
-        margin-right: 55px;
-    }
-}
-
-@media (max-width: 480px) {
-    .truth,
-    .challenge {
-        width: 80%;
-        font-size: 1.2rem;
+    .product-name {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
     }
 
-    .questions h3 {
-        font-size: 1.2rem;
-        padding: 10px;
+    .description {
+        font-size: 0.9rem;
+        line-height: 1.4;
+        margin-bottom: 20px;
     }
 
-    .rules h2 {
+    .btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    .arrows {
+        margin-top: 50px;
+        gap: 10px;
+    }
+
+    .arrow-btn {
+        width: 40px;
+        height: 40px;
+    }
+
+    .indicators {
+        gap: 10px;
+        margin-top: -50px;
+    }
+
+    .numbers {
         font-size: 2rem;
     }
 
-    .rules p {
-        font-size: 1rem;
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
     }
 
-    .users {
-        font-size: 1.2rem;
-    }
-}
-
-@media (max-width: 768px) {
-    .rules {
+    header .HPC {
         display: none;
     }
+
+    header .dropdown {
+        display: block;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+    .circle-4 {
+        width: 100px;
+        height: 100px;
+        background-color: #3498db;
+        border-radius: 50%;
+        display: block;
+        margin: 20px auto;
+    }
+    
 }
