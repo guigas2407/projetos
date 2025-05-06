@@ -19,7 +19,7 @@ Algumas das tecnologias utilizadas nos projetos:
 
 ## 🌐 Contato e Integrações
 
-- [LinkedIn](https://www.linkedin.com/in/seu-perfil)
+- [LinkedIn](www.linkedin.com/in/guilherme-meyer-soares-72ba73357)
 - [Canal no YouTube](https://www.youtube.com/seu-canal)
-- [Página pessoal no GitHub Pages (se houver)](https://seu-usuario.github.io)
+- [Página pessoal no GitHub Pages](https://guigas2407.github.io)
 
