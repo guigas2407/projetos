@@ -1,4 +1,4 @@
-# Portfólio de Projetos - [Seu Nome]
+# Portfólio de Projetos - [Guilherme]
 
 Bem-vindo ao meu repositório de portfólio! Aqui você encontrará projetos acadêmicos e pessoais desenvolvidos ao longo da minha jornada de aprendizado em tecnologia.
 
