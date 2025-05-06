@@ -1,25 +1,17 @@
-# Portfólio de Projetos - [Seu Nome]
+# Nome do Projeto
 
-Bem-vindo ao meu repositório de portfólio! Aqui você encontrará projetos acadêmicos e pessoais desenvolvidos ao longo da minha jornada de aprendizado em tecnologia.
+verdade ou desafio do guigas
 
-## 📂 Estrutura do Repositório
+## 💡 Descrição
 
-- `projetos-academicos/` - Projetos desenvolvidos em cursos, disciplinas ou bootcamps.
-- `projetos-pessoais/` - Projetos criados por iniciativa própria para praticar e aprender.
-- `documentacao/` - Arquivos de planejamento, anotações e organização do repositório.
+Um jogo de verdade ou desafio divertido que criei para jogar quando sair cm meus amigos, uma vantagem é que eu possso colocar novas perguntas e desafios sempre que quiser
 
-## 🔧 Tecnologias
+## 🔧 Tecnologias Usadas
 
-Algumas das tecnologias utilizadas nos projetos:
+- HTML
+- CSS
+- JavaScript
 
-- HTML, CSS, JavaScript
-- Python
-- Git e GitHub
-- Outras a depender dos projetos
+## 🚀 Como Executar
 
-## 🌐 Contato e Integrações
-
-- [LinkedIn](https://www.linkedin.com/in/seu-perfil)
-- [Canal no YouTube](https://www.youtube.com/seu-canal)
-- [Página pessoal no GitHub Pages (se houver)](https://seu-usuario.github.io)
-
+https://amazing-lolly-9cf831.netlify.app/
