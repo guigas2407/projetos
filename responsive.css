@@ -1,0 +1,104 @@
+@media (max-width: 1024px) {
+    .buttons {
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .rules {
+        width: auto;
+        margin: 20px;
+    }
+
+    .users {
+        margin-left: 40px;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .usernames {
+        align-items: center;
+        margin-right: 40px;
+        margin-top: 30px;
+    }
+
+    .questions {
+        margin: auto;
+    }
+
+    .dificult {
+        margin: auto;
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    input[type="text"] {
+        width: 90%;
+    }
+
+    .add {
+        width: 90%;
+    }
+
+    .content {
+        align-items: center;
+        gap: 20px;
+    }
+
+    .buttons {
+        margin: 25px;
+        flex-direction: column;
+    }
+
+    .rules h2 {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .rules p {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .torf {
+        margin-top: 120px;
+        margin-right: 55px;
+    }
+}
+
+@media (max-width: 480px) {
+    .truth,
+    .challenge {
+        width: 80%;
+        font-size: 1.2rem;
+    }
+
+    .questions h3 {
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+
+    .rules h2 {
+        font-size: 2rem;
+    }
+
+    .rules p {
+        font-size: 1rem;
+    }
+
+    .users {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .rules {
+        display: none;
+    }
+}
